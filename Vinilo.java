@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 
-// Music Disc class to store album information
+
 class Disc {
     private String artist;
     private String title;
     private int year;
     private int duration; // in minutes
 
-    // Constructor
     public Disc(String artist, String title, int year, int duration) {
         this.artist = artist;
         this.title = title;
@@ -15,16 +14,16 @@ class Disc {
         this.duration = duration;
     }
 
-    // Getters
+
     public String getArtist() { return artist; }
     public String getTitle() { return title; }
     public int getYear() { return year; }
     public int getDuration() { return duration; }
 
-    // Setter for year (to modify it later)
+
     public void setYear(int year) { this.year = year; }
 
-    // String representation of a disc
+
     @Override
     public String toString() {
         return "Artist: " + artist + ", Title: " + title +
