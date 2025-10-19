@@ -5,7 +5,7 @@ class Disc {
     private String artist;
     private String title;
     private int year;
-    private int duration; // in minutes
+    private int duration;
 
     public Disc(String artist, String title, int year, int duration) {
         this.artist = artist;
